@@ -5,7 +5,7 @@ const Phonetic = (props) => {
 
     return (
         <>
-            <p>{text}</p>
+            <p>Phonetic: {text}</p>
         </>
     );
 };

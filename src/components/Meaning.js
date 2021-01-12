@@ -1,15 +1,19 @@
 import React from 'react'
 import Definition from './Definitions';
 
+
+
 const Meaning = (props) => {
     const { partOfSpeech, definitions } = props;
+
     return (
         <div>
-            <h2>{partOfSpeech}</h2>
+            <h2>Speech: {partOfSpeech}</h2>
             <>
                 {definitions.map((definition, idx) => (
                     <Definition key={idx} {...definition} />
                 ))}
+
             </>
         </div>
     );

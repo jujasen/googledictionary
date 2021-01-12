@@ -21,7 +21,7 @@ const Dictionary = () => {
 
    return (
       <>
-         <h1>Dictionary</h1>
+         <h1>DICTIONARY</h1>
 
          {word.length < 1 ? (
             <p>no data yet</p>
