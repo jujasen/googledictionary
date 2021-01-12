@@ -19,7 +19,7 @@ const Definition = (props) => {
                 </div>
             )
             :null}
-
+ 
         </>
     )
 }
